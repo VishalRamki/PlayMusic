@@ -1,0 +1,34 @@
+{
+  "discord": {
+    "bot_token": "<TOKEN>",
+    "vChannel": {
+      "connectBy": "id",
+      "name": "CHANNEL_NAME",
+      "id": "<ID>"
+    },
+    "cmd_prefix": "/",
+    "listenOnOneTextChannel": true,
+    "tChannel": {
+      "connectBy": "id",
+      "name": "general",
+      "id": "<ID>"
+    }
+  },
+  "song": {
+    "maxLength": {
+      "int": 1200,
+      "str": "20minutes"
+    }
+  },
+  "playlist": {
+    "infoDone": false
+  },
+  "library": {
+    "maxPageSize": 10
+  }, 
+  "user_roles": ["admin", "public"],
+  "users": {
+    "admin": ["<ADMIN_ID>"],
+    "public": []
+  }
+}
